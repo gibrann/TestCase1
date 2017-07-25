@@ -47,7 +47,7 @@ export class loginView extends Component {
     }
 
     aceptar() {
-        this.props.navigator('Dashboard');
+        this.props.navigation.navigate('Dashboard');
     }
 
     cancelar() {
